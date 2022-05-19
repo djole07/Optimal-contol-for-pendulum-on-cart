@@ -7,7 +7,7 @@ If you want to simulate system yourself, you need to run _model.m_ first, and th
 
 We have a system like this:
 
-![picture](https://user-images.githubusercontent.com/70102890/169262470-d9fcb830-0186-44b1-9907-d71eeb859aa5.jpg)
+![OIP](https://user-images.githubusercontent.com/70102890/169268871-573e7339-9d7e-4c07-bb8a-4edbaedd8b17.jpg)
 
 With parameters down below:
 
