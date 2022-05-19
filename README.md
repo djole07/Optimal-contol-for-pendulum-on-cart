@@ -16,7 +16,7 @@ I = 0.006 kg/m^2
 g = 9.8 m/s^2
 l = 0.3m
 
-Now, we want the cart to minimize traveling from point A to point B. We to firsty stabilize system because otherwise we will will find control in open loop, and system can't be stable.
+Now, we want the cart to minimize traveling from point A to point B. First of all, we have to stabilize system because otherwise we will will find control in open loop, and system can't be stable.
 
 # LQR
 
