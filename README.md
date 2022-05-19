@@ -1,6 +1,8 @@
 # Optimal-contol-for-pendulum-on-cart
 Finding control for pendulum on cart to minimize time between 2 points
 
+If you want to simulate system yourself, you need to run _model.m_ first, and then _minimizacija_vremena.m_
+
 # Introduction
 
 We have a system like this:
