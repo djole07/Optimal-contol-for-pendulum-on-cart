@@ -21,6 +21,7 @@ Now, we want the cart to minimize traveling from point A to point B. First of al
 # LQR
 
 For stabilization we will use LQR controller. After stabilization, system will behave as showed in the picture down below. The input is step signal.
+Cart position is the blue curve, and the green curve is the angle.
 
 ![lqr](https://user-images.githubusercontent.com/70102890/169263920-257960d3-ca7a-4901-badf-17f0d0927c81.png)
 
@@ -29,4 +30,8 @@ For stabilization we will use LQR controller. After stabilization, system will b
 We will want to system to travel a distance of 6m, with constraints that cart has to have zero acceleration in the beginning, as well as pendulum beeing still with zero angular velocity. At the end we want from system to also have zero acceleration/velocity, but from pendulum we want zero angle to the y-axis, but angular velocity don't have to be 0, because control will be to physically imposible, but after simulation velocity will be close to zero.
 
 ![opt](https://user-images.githubusercontent.com/70102890/169264990-62eb21a5-09ba-448e-a6ce-6148aca4972b.png)
+
 Optimal contol with graph that show cart position (in blue), and current angle (in green). X-axis is time.s
+
+
+For more information, there is a pdf file with full analysis.
